@@ -1,0 +1,501 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 23.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Camada_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 2125 4602" style="enable-background:new 0 0 2125 4602;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:none;}
+	.st1{fill-rule:evenodd;clip-rule:evenodd;fill:#2A2A2C;}
+	.st2{fill-rule:evenodd;clip-rule:evenodd;fill:url(#SVGID_1_);}
+	.st3{filter:url(#ab);}
+	.st4{fill-rule:evenodd;clip-rule:evenodd;}
+	.st5{filter:url(#Adobe_OpacityMaskFilter);}
+	.st6{fill-rule:evenodd;clip-rule:evenodd;fill:#FFFFFF;}
+	.st7{mask:url(#l_1_);}
+	.st8{fill-rule:evenodd;clip-rule:evenodd;fill:#8A8A8C;}
+	.st9{fill-rule:evenodd;clip-rule:evenodd;fill:url(#SVGID_2_);}
+	.st10{filter:url(#Adobe_OpacityMaskFilter_1_);}
+	.st11{mask:url(#l_2_);}
+	.st12{filter:url(#aa);}
+	.st13{fill-rule:evenodd;clip-rule:evenodd;fill:url(#SVGID_3_);}
+	.st14{filter:url(#ah);}
+	.st15{filter:url(#Adobe_OpacityMaskFilter_2_);}
+	.st16{mask:url(#n_1_);}
+	.st17{fill-rule:evenodd;clip-rule:evenodd;fill:url(#SVGID_4_);}
+	.st18{filter:url(#Adobe_OpacityMaskFilter_3_);}
+	.st19{mask:url(#n_2_);}
+	.st20{filter:url(#ag);}
+	.st21{fill-rule:evenodd;clip-rule:evenodd;fill:url(#SVGID_5_);}
+	.st22{filter:url(#af);}
+	.st23{filter:url(#Adobe_OpacityMaskFilter_4_);}
+	.st24{mask:url(#m_1_);}
+	.st25{fill-rule:evenodd;clip-rule:evenodd;fill:url(#SVGID_6_);}
+	.st26{filter:url(#Adobe_OpacityMaskFilter_5_);}
+	.st27{mask:url(#m_2_);}
+	.st28{filter:url(#ae);}
+	.st29{fill:#020202;}
+	.st30{filter:url(#Adobe_OpacityMaskFilter_6_);}
+	.st31{mask:url(#w_1_);}
+	.st32{fill-rule:evenodd;clip-rule:evenodd;fill:#707070;}
+	.st33{fill-rule:evenodd;clip-rule:evenodd;fill:url(#SVGID_7_);}
+	.st34{fill-rule:evenodd;clip-rule:evenodd;fill:url(#SVGID_8_);fill-opacity:0.7;}
+	.st35{filter:url(#ad);}
+	.st36{fill:none;stroke:url(#SVGID_9_);stroke-width:7;}
+	.st37{filter:url(#Adobe_OpacityMaskFilter_7_);}
+	.st38{mask:url(#v_1_);}
+	.st39{filter:url(#ac);}
+</style>
+<filter  height="101.7%" id="ah" width="135.8%" x="-17.9%" y="-.8%">
+	<feGaussianBlur  in="SourceAlpha" result="shadowBlurInner1" stdDeviation="5"></feGaussianBlur>
+	<feOffset  dx="0" dy="0" in="shadowBlurInner1" result="shadowOffsetInner1"></feOffset>
+	<feComposite  in="shadowOffsetInner1" in2="SourceAlpha" k2="-1" k3="1" operator="arithmetic" result="shadowInnerInner1">
+		</feComposite>
+	<feColorMatrix  in="shadowInnerInner1" result="shadowMatrixInner1" values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.2 0">
+		</feColorMatrix>
+	<feGaussianBlur  in="SourceAlpha" result="shadowBlurInner2" stdDeviation="5"></feGaussianBlur>
+	<feOffset  dx="0" dy="0" in="shadowBlurInner2" result="shadowOffsetInner2"></feOffset>
+	<feComposite  in="shadowOffsetInner2" in2="SourceAlpha" k2="-1" k3="1" operator="arithmetic" result="shadowInnerInner2">
+		</feComposite>
+	<feColorMatrix  in="shadowInnerInner2" result="shadowMatrixInner2" values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.3 0">
+		</feColorMatrix>
+	<feMerge>
+		<feMergeNode  in="shadowMatrixInner1"></feMergeNode>
+		<feMergeNode  in="shadowMatrixInner2"></feMergeNode>
+	</feMerge>
+</filter>
+<filter  height="101.7%" id="ag" width="135.8%" x="-17.9%" y="-.8%">
+	<feGaussianBlur  in="SourceAlpha" result="shadowBlurInner1" stdDeviation="5"></feGaussianBlur>
+	<feOffset  dx="0" dy="0" in="shadowBlurInner1" result="shadowOffsetInner1"></feOffset>
+	<feComposite  in="shadowOffsetInner1" in2="SourceAlpha" k2="-1" k3="1" operator="arithmetic" result="shadowInnerInner1">
+		</feComposite>
+	<feColorMatrix  in="shadowInnerInner1" result="shadowMatrixInner1" values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.3 0">
+		</feColorMatrix>
+	<feGaussianBlur  in="SourceAlpha" result="shadowBlurInner2" stdDeviation="5"></feGaussianBlur>
+	<feOffset  dx="0" dy="0" in="shadowBlurInner2" result="shadowOffsetInner2"></feOffset>
+	<feComposite  in="shadowOffsetInner2" in2="SourceAlpha" k2="-1" k3="1" operator="arithmetic" result="shadowInnerInner2">
+		</feComposite>
+	<feColorMatrix  in="shadowInnerInner2" result="shadowMatrixInner2" values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.3 0">
+		</feColorMatrix>
+	<feGaussianBlur  in="SourceAlpha" result="shadowBlurInner3" stdDeviation="5"></feGaussianBlur>
+	<feOffset  dx="0" dy="0" in="shadowBlurInner3" result="shadowOffsetInner3"></feOffset>
+	<feComposite  in="shadowOffsetInner3" in2="SourceAlpha" k2="-1" k3="1" operator="arithmetic" result="shadowInnerInner3">
+		</feComposite>
+	<feColorMatrix  in="shadowInnerInner3" result="shadowMatrixInner3" values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.3 0">
+		</feColorMatrix>
+	<feMerge>
+		<feMergeNode  in="shadowMatrixInner1"></feMergeNode>
+		<feMergeNode  in="shadowMatrixInner2"></feMergeNode>
+		<feMergeNode  in="shadowMatrixInner3"></feMergeNode>
+	</feMerge>
+</filter>
+<filter  height="103.6%" id="af" width="135.8%" x="-17.9%" y="-1.8%">
+	<feGaussianBlur  in="SourceAlpha" result="shadowBlurInner1" stdDeviation="5"></feGaussianBlur>
+	<feOffset  dx="0" dy="0" in="shadowBlurInner1" result="shadowOffsetInner1"></feOffset>
+	<feComposite  in="shadowOffsetInner1" in2="SourceAlpha" k2="-1" k3="1" operator="arithmetic" result="shadowInnerInner1">
+		</feComposite>
+	<feColorMatrix  in="shadowInnerInner1" result="shadowMatrixInner1" values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.2 0">
+		</feColorMatrix>
+	<feGaussianBlur  in="SourceAlpha" result="shadowBlurInner2" stdDeviation="5"></feGaussianBlur>
+	<feOffset  dx="0" dy="0" in="shadowBlurInner2" result="shadowOffsetInner2"></feOffset>
+	<feComposite  in="shadowOffsetInner2" in2="SourceAlpha" k2="-1" k3="1" operator="arithmetic" result="shadowInnerInner2">
+		</feComposite>
+	<feColorMatrix  in="shadowInnerInner2" result="shadowMatrixInner2" values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.3 0">
+		</feColorMatrix>
+	<feMerge>
+		<feMergeNode  in="shadowMatrixInner1"></feMergeNode>
+		<feMergeNode  in="shadowMatrixInner2"></feMergeNode>
+	</feMerge>
+</filter>
+<filter  height="103.6%" id="ae" width="135.8%" x="-17.9%" y="-1.8%">
+	<feGaussianBlur  in="SourceAlpha" result="shadowBlurInner1" stdDeviation="5"></feGaussianBlur>
+	<feOffset  dx="0" dy="0" in="shadowBlurInner1" result="shadowOffsetInner1"></feOffset>
+	<feComposite  in="shadowOffsetInner1" in2="SourceAlpha" k2="-1" k3="1" operator="arithmetic" result="shadowInnerInner1">
+		</feComposite>
+	<feColorMatrix  in="shadowInnerInner1" result="shadowMatrixInner1" values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.3 0">
+		</feColorMatrix>
+	<feGaussianBlur  in="SourceAlpha" result="shadowBlurInner2" stdDeviation="5"></feGaussianBlur>
+	<feOffset  dx="0" dy="0" in="shadowBlurInner2" result="shadowOffsetInner2"></feOffset>
+	<feComposite  in="shadowOffsetInner2" in2="SourceAlpha" k2="-1" k3="1" operator="arithmetic" result="shadowInnerInner2">
+		</feComposite>
+	<feColorMatrix  in="shadowInnerInner2" result="shadowMatrixInner2" values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.3 0">
+		</feColorMatrix>
+	<feGaussianBlur  in="SourceAlpha" result="shadowBlurInner3" stdDeviation="5"></feGaussianBlur>
+	<feOffset  dx="0" dy="0" in="shadowBlurInner3" result="shadowOffsetInner3"></feOffset>
+	<feComposite  in="shadowOffsetInner3" in2="SourceAlpha" k2="-1" k3="1" operator="arithmetic" result="shadowInnerInner3">
+		</feComposite>
+	<feColorMatrix  in="shadowInnerInner3" result="shadowMatrixInner3" values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.3 0">
+		</feColorMatrix>
+	<feMerge>
+		<feMergeNode  in="shadowMatrixInner1"></feMergeNode>
+		<feMergeNode  in="shadowMatrixInner2"></feMergeNode>
+		<feMergeNode  in="shadowMatrixInner3"></feMergeNode>
+	</feMerge>
+</filter>
+<filter  height="171.4%" id="ad" width="109.3%" x="-4.7%" y="-35.7%">
+	<feGaussianBlur  in="SourceAlpha" result="shadowBlurInner1" stdDeviation="5"></feGaussianBlur>
+	<feOffset  dx="0" dy="0" in="shadowBlurInner1" result="shadowOffsetInner1"></feOffset>
+	<feComposite  in="shadowOffsetInner1" in2="SourceAlpha" k2="-1" k3="1" operator="arithmetic" result="shadowInnerInner1">
+		</feComposite>
+	
+		<feColorMatrix  in="shadowInnerInner1" result="shadowMatrixInner1" values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.497254303 0">
+		</feColorMatrix>
+	<feGaussianBlur  in="SourceAlpha" result="shadowBlurInner2" stdDeviation="5"></feGaussianBlur>
+	<feOffset  dx="0" dy="0" in="shadowBlurInner2" result="shadowOffsetInner2"></feOffset>
+	<feComposite  in="shadowOffsetInner2" in2="SourceAlpha" k2="-1" k3="1" operator="arithmetic" result="shadowInnerInner2">
+		</feComposite>
+	
+		<feColorMatrix  in="shadowInnerInner2" result="shadowMatrixInner2" values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.497027853 0">
+		</feColorMatrix>
+	<feMerge>
+		<feMergeNode  in="shadowMatrixInner1"></feMergeNode>
+		<feMergeNode  in="shadowMatrixInner2"></feMergeNode>
+	</feMerge>
+</filter>
+<filter  height="100.2%" id="ac" width="100.5%" x="-.2%" y="-.1%">
+	<feGaussianBlur  in="SourceAlpha" result="shadowBlurInner1" stdDeviation="5"></feGaussianBlur>
+	<feOffset  dx="0" dy="0" in="shadowBlurInner1" result="shadowOffsetInner1"></feOffset>
+	<feComposite  in="shadowOffsetInner1" in2="SourceAlpha" k2="-1" k3="1" operator="arithmetic" result="shadowInnerInner1">
+		</feComposite>
+	<feColorMatrix  in="shadowInnerInner1" result="shadowMatrixInner1" values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 1 0">
+		</feColorMatrix>
+	<feGaussianBlur  in="SourceAlpha" result="shadowBlurInner2" stdDeviation="5"></feGaussianBlur>
+	<feOffset  dx="0" dy="0" in="shadowBlurInner2" result="shadowOffsetInner2"></feOffset>
+	<feComposite  in="shadowOffsetInner2" in2="SourceAlpha" k2="-1" k3="1" operator="arithmetic" result="shadowInnerInner2">
+		</feComposite>
+	<feColorMatrix  in="shadowInnerInner2" result="shadowMatrixInner2" values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 1 0">
+		</feColorMatrix>
+	<feMerge>
+		<feMergeNode  in="shadowMatrixInner1"></feMergeNode>
+		<feMergeNode  in="shadowMatrixInner2"></feMergeNode>
+	</feMerge>
+</filter>
+<filter  height="103.6%" id="ab" width="135.8%" x="-17.9%" y="-1.8%">
+	<feGaussianBlur  in="SourceAlpha" result="shadowBlurInner1" stdDeviation="5"></feGaussianBlur>
+	<feOffset  dx="0" dy="0" in="shadowBlurInner1" result="shadowOffsetInner1"></feOffset>
+	<feComposite  in="shadowOffsetInner1" in2="SourceAlpha" k2="-1" k3="1" operator="arithmetic" result="shadowInnerInner1">
+		</feComposite>
+	<feColorMatrix  in="shadowInnerInner1" result="shadowMatrixInner1" values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.2 0">
+		</feColorMatrix>
+	<feGaussianBlur  in="SourceAlpha" result="shadowBlurInner2" stdDeviation="5"></feGaussianBlur>
+	<feOffset  dx="0" dy="0" in="shadowBlurInner2" result="shadowOffsetInner2"></feOffset>
+	<feComposite  in="shadowOffsetInner2" in2="SourceAlpha" k2="-1" k3="1" operator="arithmetic" result="shadowInnerInner2">
+		</feComposite>
+	<feColorMatrix  in="shadowInnerInner2" result="shadowMatrixInner2" values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.3 0">
+		</feColorMatrix>
+	<feMerge>
+		<feMergeNode  in="shadowMatrixInner1"></feMergeNode>
+		<feMergeNode  in="shadowMatrixInner2"></feMergeNode>
+	</feMerge>
+</filter>
+<filter  height="103.6%" id="aa" width="135.8%" x="-17.9%" y="-1.8%">
+	<feGaussianBlur  in="SourceAlpha" result="shadowBlurInner1" stdDeviation="5"></feGaussianBlur>
+	<feOffset  dx="0" dy="0" in="shadowBlurInner1" result="shadowOffsetInner1"></feOffset>
+	<feComposite  in="shadowOffsetInner1" in2="SourceAlpha" k2="-1" k3="1" operator="arithmetic" result="shadowInnerInner1">
+		</feComposite>
+	<feColorMatrix  in="shadowInnerInner1" result="shadowMatrixInner1" values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.3 0">
+		</feColorMatrix>
+	<feGaussianBlur  in="SourceAlpha" result="shadowBlurInner2" stdDeviation="5"></feGaussianBlur>
+	<feOffset  dx="0" dy="0" in="shadowBlurInner2" result="shadowOffsetInner2"></feOffset>
+	<feComposite  in="shadowOffsetInner2" in2="SourceAlpha" k2="-1" k3="1" operator="arithmetic" result="shadowInnerInner2">
+		</feComposite>
+	<feColorMatrix  in="shadowInnerInner2" result="shadowMatrixInner2" values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.3 0">
+		</feColorMatrix>
+	<feGaussianBlur  in="SourceAlpha" result="shadowBlurInner3" stdDeviation="5"></feGaussianBlur>
+	<feOffset  dx="0" dy="0" in="shadowBlurInner3" result="shadowOffsetInner3"></feOffset>
+	<feComposite  in="shadowOffsetInner3" in2="SourceAlpha" k2="-1" k3="1" operator="arithmetic" result="shadowInnerInner3">
+		</feComposite>
+	<feColorMatrix  in="shadowInnerInner3" result="shadowMatrixInner3" values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.3 0">
+		</feColorMatrix>
+	<feMerge>
+		<feMergeNode  in="shadowMatrixInner1"></feMergeNode>
+		<feMergeNode  in="shadowMatrixInner2"></feMergeNode>
+		<feMergeNode  in="shadowMatrixInner3"></feMergeNode>
+	</feMerge>
+</filter>
+<pattern  y="4602" width="6" height="6" patternUnits="userSpaceOnUse" id="o" viewBox="0 -6 6 6" style="overflow:visible;">
+	<g>
+		<rect y="-6" class="st0" width="6" height="6"/>
+		<g transform="scale(.1)">
+			
+				<image style="overflow:visible;enable-background:new    ;" width="60" height="60" id="y_1_" xlink:href="E1A3376E.png"  transform="matrix(0.1 0 0 -0.1 6 -6)">
+			</image>
+		</g>
+	</g>
+</pattern>
+<pattern  y="4602" width="1.6" height="1.6" patternUnits="userSpaceOnUse" id="p" viewBox="0 -1.6 1.6 1.6" style="overflow:visible;">
+	<g>
+		<rect y="-1.6" class="st0" width="1.6" height="1.6"/>
+		<g transform="scale(.4)">
+			
+				<image style="overflow:visible;enable-background:new    ;" width="4" height="4" id="z_1_" xlink:href="E1A3376A.jpg"  transform="matrix(0.4 0 0 -0.4 1.6 -1.6)">
+			</image>
+		</g>
+	</g>
+</pattern>
+<title>Galaxy Note8/01/Midnight Black</title>
+<desc>Created with Sketch.</desc>
+<g>
+	<g transform="translate(0 1670.2)">
+		<g>
+			<path class="st1" d="M11.8,0H28v280.2H11.8C5.3,280.2,0,275,0,268.5V11.8C0,5.3,5.3,0,11.8,0L11.8,0z"/>
+		</g>
+		<g>
+			
+				<linearGradient id="SVGID_1_" gradientUnits="userSpaceOnUse" x1="482.6128" y1="1851.6646" x2="482.6128" y2="1852.6646" gradientTransform="matrix(27.953 0 0 -280.24 -13476.501 519190.75)">
+				<stop  offset="0" style="stop-color:#000000"/>
+				<stop  offset="7.029000e-03" style="stop-color:#727274"/>
+				<stop  offset="1.514600e-02" style="stop-color:#818183;stop-opacity:0"/>
+				<stop  offset="0.9763" style="stop-color:#939393;stop-opacity:0"/>
+				<stop  offset="0.9873" style="stop-color:#A4A4A6"/>
+				<stop  offset="0.9913" style="stop-color:#A4A4A6"/>
+				<stop  offset="1" style="stop-color:#000000"/>
+			</linearGradient>
+			<path class="st2" d="M11.8,0H28v280.2H11.8C5.3,280.2,0,275,0,268.5V11.8C0,5.3,5.3,0,11.8,0L11.8,0z"/>
+		</g>
+		<g class="st3">
+			<path class="st4" d="M11.8,0H28v280.2H11.8C5.3,280.2,0,275,0,268.5V11.8C0,5.3,5.3,0,11.8,0L11.8,0z"/>
+		</g>
+		<defs>
+			<filter id="Adobe_OpacityMaskFilter" filterUnits="userSpaceOnUse" x="-11.2" y="0" width="16" height="280.2">
+				<feColorMatrix  type="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 1 0"/>
+			</filter>
+		</defs>
+		<mask maskUnits="userSpaceOnUse" x="-11.2" y="0" width="16" height="280.2" id="l_1_">
+			<g class="st5">
+				<path id="c_1_" class="st6" d="M11.8,0H28v280.2H11.8C5.3,280.2,0,275,0,268.5V11.8C0,5.3,5.3,0,11.8,0L11.8,0z"/>
+			</g>
+		</mask>
+		<g class="st7">
+			<g>
+				<path id="g" class="st8" d="M-3.2,0c4.4,0,8,3.6,8,8v264.3c0,4.4-3.6,8-8,8s-8-3.6-8-8V8C-11.2,3.6-7.6,0-3.2,0L-3.2,0z"/>
+			</g>
+			<g>
+				
+					<linearGradient id="SVGID_2_" gradientUnits="userSpaceOnUse" x1="469.1972" y1="1852.6646" x2="469.1972" y2="1851.6646" gradientTransform="matrix(15.973 0 0 -280.243 -7497.6807 519196.2813)">
+					<stop  offset="0" style="stop-color:#4A4A4C"/>
+					<stop  offset="4.653100e-02" style="stop-color:#EAE6F4;stop-opacity:0"/>
+					<stop  offset="0.9515" style="stop-color:#F8F1FF;stop-opacity:0"/>
+					<stop  offset="1" style="stop-color:#616161"/>
+				</linearGradient>
+				<path class="st9" d="M-3.2,0c4.4,0,8,3.6,8,8v264.3c0,4.4-3.6,8-8,8s-8-3.6-8-8V8C-11.2,3.6-7.6,0-3.2,0L-3.2,0z"/>
+			</g>
+		</g>
+		<defs>
+			<filter id="Adobe_OpacityMaskFilter_1_" filterUnits="userSpaceOnUse" x="-5" y="-5" width="38" height="290">
+				<feColorMatrix  type="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 1 0"/>
+			</filter>
+		</defs>
+		<mask maskUnits="userSpaceOnUse" x="-5" y="-5" width="38" height="290" id="l_2_">
+			<g class="st10">
+				<path id="c_2_" class="st6" d="M11.8,0H28v280.2H11.8C5.3,280.2,0,275,0,268.5V11.8C0,5.3,5.3,0,11.8,0L11.8,0z"/>
+			</g>
+		</mask>
+		<g class="st11">
+			<g class="st12">
+				<path id="q_1_" class="st4" d="M11.8,0H28v280.2H11.8C5.3,280.2,0,275,0,268.5V11.8C0,5.3,5.3,0,11.8,0L11.8,0z"/>
+			</g>
+		</g>
+	</g>
+	<g transform="translate(0 840.72)">
+		<g>
+			<path class="st1" d="M11.8,0H28v588.5H11.8c-6.5,0-11.8-5.3-11.8-11.8v-565C0,5.3,5.3,0,11.8,0z"/>
+		</g>
+		<g>
+			
+				<linearGradient id="SVGID_3_" gradientUnits="userSpaceOnUse" x1="482.6128" y1="2679.1204" x2="482.6128" y2="2680.1204" gradientTransform="matrix(27.953 0 0 -588.5 -13476.501 1577250.75)">
+				<stop  offset="0" style="stop-color:#000000"/>
+				<stop  offset="7.029000e-03" style="stop-color:#727274"/>
+				<stop  offset="1.514600e-02" style="stop-color:#818183;stop-opacity:0"/>
+				<stop  offset="0.9763" style="stop-color:#939393;stop-opacity:0"/>
+				<stop  offset="0.9873" style="stop-color:#A4A4A6"/>
+				<stop  offset="0.9913" style="stop-color:#A4A4A6"/>
+				<stop  offset="1" style="stop-color:#000000"/>
+			</linearGradient>
+			<path class="st13" d="M11.8,0H28v588.5H11.8c-6.5,0-11.8-5.3-11.8-11.8v-565C0,5.3,5.3,0,11.8,0z"/>
+		</g>
+		<g class="st14">
+			<path class="st4" d="M11.8,0H28v588.5H11.8c-6.5,0-11.8-5.3-11.8-11.8v-565C0,5.3,5.3,0,11.8,0z"/>
+		</g>
+		<defs>
+			<filter id="Adobe_OpacityMaskFilter_2_" filterUnits="userSpaceOnUse" x="-11.2" y="0" width="16" height="588.5">
+				<feColorMatrix  type="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 1 0"/>
+			</filter>
+		</defs>
+		<mask maskUnits="userSpaceOnUse" x="-11.2" y="0" width="16" height="588.5" id="n_1_">
+			<g class="st15">
+				<path id="a_1_" class="st6" d="M11.8,0H28v588.5H11.8c-6.5,0-11.8-5.3-11.8-11.8v-565C0,5.3,5.3,0,11.8,0z"/>
+			</g>
+		</mask>
+		<g class="st16">
+			<g>
+				<path id="k" class="st8" d="M-3.2,0c4.4,0,8,3.6,8,8v572.5c0,4.4-3.6,8-8,8s-8-3.6-8-8V8C-11.2,3.6-7.6,0-3.2,0L-3.2,0z"/>
+			</g>
+			<g>
+				
+					<linearGradient id="SVGID_4_" gradientUnits="userSpaceOnUse" x1="469.1972" y1="2680.1204" x2="469.1972" y2="2679.1204" gradientTransform="matrix(15.973 0 0 -588.5031 -7497.6807 1577259)">
+					<stop  offset="0" style="stop-color:#4A4A4C"/>
+					<stop  offset="4.653100e-02" style="stop-color:#EAE6F4;stop-opacity:0"/>
+					<stop  offset="0.9515" style="stop-color:#F8F1FF;stop-opacity:0"/>
+					<stop  offset="1" style="stop-color:#616161"/>
+				</linearGradient>
+				<path class="st17" d="M-3.2,0c4.4,0,8,3.6,8,8v572.5c0,4.4-3.6,8-8,8s-8-3.6-8-8V8C-11.2,3.6-7.6,0-3.2,0L-3.2,0z"/>
+			</g>
+		</g>
+		<defs>
+			<filter id="Adobe_OpacityMaskFilter_3_" filterUnits="userSpaceOnUse" x="-5" y="-4.7" width="38" height="599">
+				<feColorMatrix  type="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 1 0"/>
+			</filter>
+		</defs>
+		<mask maskUnits="userSpaceOnUse" x="-5" y="-4.7" width="38" height="599" id="n_2_">
+			<g class="st18">
+				<path id="a_2_" class="st6" d="M11.8,0H28v588.5H11.8c-6.5,0-11.8-5.3-11.8-11.8v-565C0,5.3,5.3,0,11.8,0z"/>
+			</g>
+		</mask>
+		<g class="st19">
+			<g class="st20">
+				<path id="u_1_" class="st4" d="M11.8,0H28v588.5H11.8c-6.5,0-11.8-5.3-11.8-11.8v-565C0,5.3,5.3,0,11.8,0z"/>
+			</g>
+		</g>
+	</g>
+	<g transform="translate(2096.5 1434.8)">
+		<g transform="translate(13.976 137.32) scale(-1 1) translate(-13.976 -137.32)">
+			<g>
+				<path class="st1" d="M11.8,0H28v274.6H11.8c-6.5,0-11.8-5.3-11.8-11.8V11.8C0,5.3,5.3,0,11.8,0z"/>
+			</g>
+			<g>
+				
+					<linearGradient id="SVGID_5_" gradientUnits="userSpaceOnUse" x1="1606.0648" y1="2087.1436" x2="1606.0648" y2="2088.1436" gradientTransform="matrix(-27.953 0 0 -274.63 44908.3086 573466.8125)">
+					<stop  offset="0" style="stop-color:#000000"/>
+					<stop  offset="7.029000e-03" style="stop-color:#727274"/>
+					<stop  offset="1.514600e-02" style="stop-color:#818183;stop-opacity:0"/>
+					<stop  offset="0.9763" style="stop-color:#939393;stop-opacity:0"/>
+					<stop  offset="0.9873" style="stop-color:#A4A4A6"/>
+					<stop  offset="0.9913" style="stop-color:#A4A4A6"/>
+					<stop  offset="1" style="stop-color:#000000"/>
+				</linearGradient>
+				<path class="st21" d="M11.8,0H28v274.6H11.8c-6.5,0-11.8-5.3-11.8-11.8V11.8C0,5.3,5.3,0,11.8,0z"/>
+			</g>
+			<g class="st22">
+				<path class="st4" d="M11.8,0H28v274.6H11.8c-6.5,0-11.8-5.3-11.8-11.8V11.8C0,5.3,5.3,0,11.8,0z"/>
+			</g>
+		</g>
+		<defs>
+			<filter id="Adobe_OpacityMaskFilter_4_" filterUnits="userSpaceOnUse" x="22.4" y="0" width="16.8" height="274.6">
+				<feColorMatrix  type="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 1 0"/>
+			</filter>
+		</defs>
+		<mask maskUnits="userSpaceOnUse" x="22.4" y="0" width="16.8" height="274.6" id="m_1_">
+			<g class="st23">
+				<path id="d_1_" class="st6" d="M11.8,0H28v274.6H11.8c-6.5,0-11.8-5.3-11.8-11.8V11.8C0,5.3,5.3,0,11.8,0z"/>
+			</g>
+		</mask>
+		<g transform="translate(30.748 137.32) scale(-1 1) translate(-30.748 -137.32)" class="st24">
+			<g>
+				<path id="j" class="st8" d="M30.7,0c4.6,0,8.4,3.8,8.4,8.4v257.9c0,4.6-3.8,8.4-8.4,8.4s-8.4-3.8-8.4-8.4V8.4
+					C22.4,3.8,26.1,0,30.7,0z"/>
+			</g>
+			<g>
+				
+					<linearGradient id="SVGID_6_" gradientUnits="userSpaceOnUse" x1="1627.6837" y1="2088.1433" x2="1627.6837" y2="2087.1433" gradientTransform="matrix(-16.7716 0 0 -274.6316 27329.6055 573470.125)">
+					<stop  offset="0" style="stop-color:#4A4A4C"/>
+					<stop  offset="4.653100e-02" style="stop-color:#EAE6F4;stop-opacity:0"/>
+					<stop  offset="0.9515" style="stop-color:#F8F1FF;stop-opacity:0"/>
+					<stop  offset="1" style="stop-color:#616161"/>
+				</linearGradient>
+				<path class="st25" d="M30.7,0c4.6,0,8.4,3.8,8.4,8.4v257.9c0,4.6-3.8,8.4-8.4,8.4s-8.4-3.8-8.4-8.4V8.4C22.4,3.8,26.1,0,30.7,0z
+					"/>
+			</g>
+		</g>
+		<defs>
+			<filter id="Adobe_OpacityMaskFilter_5_" filterUnits="userSpaceOnUse" x="-5" y="-4.9" width="38" height="285">
+				<feColorMatrix  type="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 1 0"/>
+			</filter>
+		</defs>
+		<mask maskUnits="userSpaceOnUse" x="-5" y="-4.9" width="38" height="285" id="m_2_">
+			<g class="st26">
+				<path id="d_2_" class="st6" d="M11.8,0H28v274.6H11.8c-6.5,0-11.8-5.3-11.8-11.8V11.8C0,5.3,5.3,0,11.8,0z"/>
+			</g>
+		</mask>
+		<g transform="translate(13.976 137.32) scale(-1 1) translate(-13.976 -137.32)" class="st27">
+			<g class="st28">
+				<path id="t_1_" class="st4" d="M11.8,0H28v274.6H11.8c-6.5,0-11.8-5.3-11.8-11.8V11.8C0,5.3,5.3,0,11.8,0z"/>
+			</g>
+		</g>
+	</g>
+	<g transform="translate(11.181)">
+		<g>
+			<path class="st29" d="M162.1,0h1777.8c149.5,0,162.1,128.8,162.1,218.6V4439c0,140-128.5,162.5-218,162.5H218
+				c-89.5,0-218-22.3-218-162.5V218.6C0,128.8,15,0,162.1,0L162.1,0z"/>
+		</g>
+		<defs>
+			<filter id="Adobe_OpacityMaskFilter_6_" filterUnits="userSpaceOnUse" x="910.4" y="111.3" width="281" height="58">
+				<feColorMatrix  type="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 1 0"/>
+			</filter>
+		</defs>
+		<mask maskUnits="userSpaceOnUse" x="910.4" y="111.3" width="281" height="58" id="w_1_">
+			<g class="st30">
+				<path id="i_1_" class="st6" d="M162.1,0h1777.8c149.5,0,162.1,128.8,162.1,218.6V4439c0,140-128.5,162.5-218,162.5H218
+					c-89.5,0-218-22.3-218-162.5V218.6C0,128.8,15,0,162.1,0L162.1,0z"/>
+			</g>
+		</mask>
+		<g class="st31">
+			<g transform="translate(922.44 123.31)">
+				<g>
+					<path id="b" class="st32" d="M15.7,0C7,0,0,7,0,15.7v2.2c0,8.7,7,15.7,15.7,15.7h225.9c8.6,0,15.7-7,15.7-15.7v-2.2
+						c0-8.7-7-15.7-15.7-15.7C241.5,0,15.7,0,15.7,0z"/>
+				</g>
+				<g>
+					<pattern  id="SVGID_7_" xlink:href="#p" patternTransform="matrix(1 0 0 -1 931.221 -18676.3105)">
+					</pattern>
+					<path class="st33" d="M15.7,0C7,0,0,7,0,15.7v2.2c0,8.7,7,15.7,15.7,15.7h225.9c8.6,0,15.7-7,15.7-15.7v-2.2
+						c0-8.7-7-15.7-15.7-15.7C241.5,0,15.7,0,15.7,0z"/>
+				</g>
+				<g>
+					<pattern  id="SVGID_8_" xlink:href="#o" patternTransform="matrix(1 0 0 -1 925.621 -18682.3105)">
+					</pattern>
+					<path class="st34" d="M15.7,0C7,0,0,7,0,15.7v2.2c0,8.7,7,15.7,15.7,15.7h225.9c8.6,0,15.7-7,15.7-15.7v-2.2
+						c0-8.7-7-15.7-15.7-15.7C241.5,0,15.7,0,15.7,0z"/>
+				</g>
+				<g class="st35">
+					<path class="st4" d="M15.7,0C7,0,0,7,0,15.7v2.2c0,8.7,7,15.7,15.7,15.7h225.9c8.6,0,15.7-7,15.7-15.7v-2.2
+						c0-8.7-7-15.7-15.7-15.7C241.5,0,15.7,0,15.7,0z"/>
+				</g>
+				
+					<linearGradient id="SVGID_9_" gradientUnits="userSpaceOnUse" x1="-435.5137" y1="3421.8467" x2="-434.4785" y2="3421.8467" gradientTransform="matrix(264.168 0 0 -40.6279 115045.2891 139039.25)">
+					<stop  offset="0" style="stop-color:#1E1E1E"/>
+					<stop  offset="8.590900e-02" style="stop-color:#151515"/>
+					<stop  offset="0.9191" style="stop-color:#111111"/>
+					<stop  offset="1" style="stop-color:#1E1E1E"/>
+				</linearGradient>
+				<path class="st36" d="M15.7-3.5h225.9c10.6,0,19.2,8.6,19.2,19.2v2.2c0,10.6-8.6,19.2-19.2,19.2H15.7
+					c-10.6,0-19.2-8.6-19.2-19.2v-2.2C-3.5,5.1,5.1-3.5,15.7-3.5z"/>
+			</g>
+		</g>
+	</g>
+	<g transform="translate(55.906 224.19)">
+		<g>
+			<path class="st6" d="M78.4,0h1855.8c43.3,0,78.4,35.1,78.4,78.4v3990.7c0,43.3-35.1,78.4-78.4,78.4H78.4
+				c-43.3,0-78.4-35.1-78.4-78.4V78.4C0,35.1,35.1,0,78.4,0z"/>
+		</g>
+	</g>
+	<g transform="translate(21.772 22.419)">
+		<defs>
+			<filter id="Adobe_OpacityMaskFilter_7_" filterUnits="userSpaceOnUse" x="1.9" y="1.1" width="2079" height="4560">
+				<feColorMatrix  type="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 1 0"/>
+			</filter>
+		</defs>
+		<mask maskUnits="userSpaceOnUse" x="1.9" y="1.1" width="2079" height="4560" id="v_1_">
+			<g class="st37">
+				<path id="s_1_" class="st6" d="M151.5,0C-8.1,3.3,0.6,135,0.6,196.2V4411c0,60.2,24.5,99.9,69.5,124c36,19.2,83,27.4,137.3,27.4
+					h1666c54.2,0,101.3-8.2,137.3-27.5c45-24,69.5-63.8,69.5-123.9V196.2c0-71.9-3.4-196.2-150.9-196.2L151.5,0L151.5,0z"/>
+			</g>
+		</mask>
+		<g class="st38">
+			<g class="st39">
+				<path id="r_1_" class="st4" d="M151.5,5.6C-3.7,5.6,6.2,135,6.2,196.2V4411c0,60.2,18.9,99.9,63.9,124
+					c36,19.2,83,21.8,137.3,21.8h1666c54.2,0,101.3-2.6,137.3-21.9c45-24,63.9-63.8,63.9-123.9V196.2c0-71.9,2.2-190.6-145.3-190.6
+					L151.5,5.6L151.5,5.6z"/>
+			</g>
+		</g>
+	</g>
+</g>
+</svg>
