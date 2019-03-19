@@ -1,0 +1,17 @@
+{
+  "editor.tabSize": 2,
+  "gitlens.advanced.messages": {
+    "suppressCommitHasNoPreviousCommitWarning": false,
+    "suppressCommitNotFoundWarning": false,
+    "suppressFileNotUnderSourceControlWarning": false,
+    "suppressGitVersionWarning": false,
+    "suppressLineUncommittedWarning": false,
+    "suppressNoRepositoryWarning": false,
+    "suppressResultsExplorerNotice": false,
+    "suppressShowKeyBindingsNotice": true
+  },
+  "workbench.iconTheme": "vscode-icons",
+  "files.eol": "\n",
+  "editor.formatOnSave": true,
+  "prettier.eslintIntegration": true
+}

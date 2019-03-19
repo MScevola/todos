@@ -1,0 +1,67 @@
+{
+  "name": "apollo-landing",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "classnames": "^2.2.6",
+    "node-sass": "^4.9.3",
+    "react-lazyload": "^2.3.0",
+    "react-loadable": "^5.5.0",
+    "react-router": "^4.3.1",
+    "react-router-dom": "^4.3.1",
+    "react-scripts": "^2.1.8",
+    "react-scroll-parallax": "^2.0.0-alpha.2",
+    "styled-components": "^3.4.5",
+    "webfontloader": "^1.6.28"
+  },
+  "lint-staged": {
+    "src/**/*.{js,jsx,json}": [
+      "eslint --fix",
+      "git add"
+    ],
+    "src/**/*.{scss,css}": [
+      "stylelint --config=.stylelintrc --fix",
+      "git add"
+    ]
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "build:development": "env-cmd .env.development npm run build",
+    "build:staging": "env-cmd .env.staging npm run build",
+    "build:production": "env-cmd .env.production npm run build",
+    "postbuild": "node iisConfig/iisConfig.js",
+    "test": "react-scripts test --watchAll=false",
+    "test:watch": "react-scripts test",
+    "eject": "react-scripts eject",
+    "precommit": "lint-staged && react-scripts test --watchAll=false",
+    "lint": "./node_modules/.bin/eslint --fix --ext=js --ext=jsx ./src/",
+    "lint:css": "stylelint './src/**/*.js'",
+    "serve": "./node_modules/.bin/serve -s --ssl ./build",
+    "analyze": "set GENERATE_SOURCEMAP=true && npm run build && source-map-explorer build/static/js/main.*"
+  },
+  "devDependencies": {
+    "cross-env": "^5.2.0",
+    "env-cmd": "^8.0.2",
+    "husky": "^0.14.3",
+    "jest-dom": "^2.1.0",
+    "lint-staged": "^7.0.4",
+    "prettier": "^1.11.1",
+    "prop-types": "^15.6.1",
+    "react": "^16.6.0",
+    "react-dom": "^16.6.0",
+    "react-scroll": "^1.7.10",
+    "react-testing-library": "^5.2.3",
+    "serve": ">=7.0.0",
+    "source-map-explorer": "^1.6.0",
+    "stylelint": "^9.6.0",
+    "stylelint-config-recommended": "^2.1.0",
+    "stylelint-config-styled-components": "^0.1.1"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ]
+}
