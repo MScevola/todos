@@ -52,7 +52,7 @@
     "react-dom": "^16.6.0",
     "react-scroll": "^1.7.10",
     "react-testing-library": "^5.2.3",
-    "serve": "^6.5.8",
+    "serve": ">=7.0.0",
     "source-map-explorer": "^1.6.0",
     "stylelint": "^9.6.0",
     "stylelint-config-recommended": "^2.1.0",

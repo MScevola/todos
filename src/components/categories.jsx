@@ -9,17 +9,22 @@ const style = ({ theme, ...rest }) => css`
   border-style: solid;
   padding: 10px;
   font-size: 24px;
-
-  :hover {
-    color: ${theme.colors.lightest};
-    background-color: ${theme.colors.secondary};
-  }
 `;
 
-const ButtonBase = styled.button([style]);
+const StyledList = styled.ul([style]);
 
-const Button = ({ onClick, children }) => (
-  <ButtonBase onClick={onClick}>{children}</ButtonBase>
+const loadList = () => {
+  console.log('lista');
+}
+
+const Category = ({ list }) => (
+  <StyledList>{
+    list.map((list) => (
+      <li key={list.id}>
+        <button onClick={loadList}>{list.name}</button>
+      </li>
+    ))
+  }</StyledList>
 );
 
-export default Button;
+export default Category;
