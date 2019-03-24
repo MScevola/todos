@@ -15,7 +15,7 @@ WebFont.load({
 });
 
 const Home = styled('div')`
-  
+  background: #EDEDED;
 `;
 
 class Landing extends Component {

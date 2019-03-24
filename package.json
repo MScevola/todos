@@ -16,7 +16,6 @@
   },
   "lint-staged": {
     "src/**/*.{js,jsx,json}": [
-      "eslint --fix",
       "git add"
     ],
     "src/**/*.{scss,css}": [
@@ -34,8 +33,6 @@
     "test": "react-scripts test --watchAll=false",
     "test:watch": "react-scripts test",
     "eject": "react-scripts eject",
-    "precommit": "lint-staged && react-scripts test --watchAll=false",
-    "lint": "./node_modules/.bin/eslint --fix --ext=js --ext=jsx ./src/",
     "lint:css": "stylelint './src/**/*.js'",
     "serve": "./node_modules/.bin/serve -s --ssl ./build",
     "analyze": "set GENERATE_SOURCEMAP=true && npm run build && source-map-explorer build/static/js/main.*"
