@@ -43,11 +43,6 @@
         "name": "compra 3",
         "description": "descrição da compra 3",
         "status": 0
-      },
-      {
-        "name": "compra 4",
-        "description": "descrição da compra 4",
-        "status": 1
       }
     ]
   },
@@ -73,6 +68,11 @@
       {
         "name": "evento 4",
         "description": "descrição da evento 4",
+        "status": 0
+      },
+      {
+        "name": "evento 5",
+        "description": "descrição da evento 5",
         "status": 0
       }
     ]

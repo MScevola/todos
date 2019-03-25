@@ -1,5 +1,7 @@
-import React, { useState } from "react";
+import React, { useContext } from "react";
 import styled, { css } from "styled-components";
+
+import { ToDoContext } from '../contexts/toDoContext';
 
 const style = ({ theme, ...rest }) => css`
   background-color: ${theme.colors.lightest};
@@ -14,14 +16,17 @@ const style = ({ theme, ...rest }) => css`
 const StyledList = styled.ul([style]);
 
 function Category({ list }) {
-  const [actualList, setActualList] = useState(0);
+  const { setActualList } = useContext(ToDoContext);
+
+  function loadList(toDoList) {
+    setActualList(toDoList);
+  }
 
   return (
     <StyledList>
-      {actualList}
       {list.map((list, index) => (
         <li id={index} key={index}>
-          <button onClick={() => setActualList(index)}>{list.name}</button>
+          <button onClick={() => loadList(index)}>{list.name}</button>
         </li>
       ))}
     </StyledList>
