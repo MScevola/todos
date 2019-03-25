@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import styled, { css } from "styled-components";
 
 const style = ({ theme, ...rest }) => css`
@@ -13,18 +13,19 @@ const style = ({ theme, ...rest }) => css`
 
 const StyledList = styled.ul([style]);
 
-const loadList = () => {
-  console.log('lista');
-}
+function Category({ list }) {
+  const [actualList, setActualList] = useState(0);
 
-const Category = ({ list }) => (
-  <StyledList>{
-    list.map((list) => (
-      <li key={list.id}>
-        <button onClick={loadList}>{list.name}</button>
-      </li>
-    ))
-  }</StyledList>
-);
+  return (
+    <StyledList>
+      {actualList}
+      {list.map((list, index) => (
+        <li id={index} key={index}>
+          <button onClick={() => setActualList(index)}>{list.name}</button>
+        </li>
+      ))}
+    </StyledList>
+  );
+}
 
 export default Category;
