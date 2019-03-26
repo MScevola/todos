@@ -13,8 +13,14 @@ const style = ({ theme, ...rest }) => css`
 
 const StyledInput = styled.input([style]);
 
-const Input = ({ name, placeholder }) => (
-  <StyledInput type="text" name={name} placeholder={placeholder} />
+const Input = ({ name, placeholder, value, onChange }) => (
+  <StyledInput
+    type="text"
+    name={name}
+    placeholder={placeholder}
+    value={value}
+    onChange={onChange}
+  />
 );
 
 export default Input;

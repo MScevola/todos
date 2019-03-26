@@ -1,79 +1,76 @@
 [
   {
-    "id": 1,
     "name": "tarefas",
     "todos": [
       {
         "name": "tarefa 1",
         "description": "descrição da tarefa 1",
-        "status": 1
+        "status": true
       },
       {
         "name": "tarefa 2",
         "description": "descrição da tarefa 2",
-        "status": 0
+        "status": false
       },
       {
         "name": "tarefa 3",
         "description": "descrição da tarefa 3",
-        "status": 0
+        "status": false
       },
       {
         "name": "tarefa 4",
         "description": "descrição da tarefa 4",
-        "status": 1
+        "status": true
       }
     ]
   },
   {
-    "id": 2,
     "name": "compras",
     "todos": [
       {
         "name": "compra 1",
         "description": "descrição da compra 1",
-        "status": 1
+        "status": true
       },
       {
         "name": "compra 2",
         "description": "descrição da compra 2",
-        "status": 1
+        "status": true
       },
       {
         "name": "compra 3",
         "description": "descrição da compra 3",
-        "status": 0
+        "status": false
       }
     ]
   },
   {
-    "id": 3,
     "name": "eventos",
     "todos": [
       {
         "name": "evento 1",
         "description": "descrição da evento 1",
-        "status": 0
+        "status": false
       },
       {
         "name": "evento 2",
         "description": "descrição da evento 2",
-        "status": 0
+        "status": false
       },
       {
         "name": "evento 3",
         "description": "descrição da evento 3",
-        "status": 0
+        "status": false
       },
       {
         "name": "evento 4",
         "description": "descrição da evento 4",
-        "status": 0
+        "status": false
       },
       {
         "name": "evento 5",
         "description": "descrição da evento 5",
-        "status": 0
+        "status": false
       }
     ]
   }

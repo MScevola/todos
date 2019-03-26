@@ -1,9 +1,5 @@
-import React, { useContext } from "react";
+import React, { useState } from "react";
 import styled, { css } from "styled-components";
-import { SortableContainer, SortableElement } from 'react-sortable-hoc';
-import arrayMove from 'array-move';
-
-import { ToDoContext } from '../contexts/toDoContext';
 
 const style = ({ theme, ...rest }) => css`
   background-color: ${theme.colors.lightest};
@@ -17,31 +13,42 @@ const style = ({ theme, ...rest }) => css`
 
 const StyledList = styled.ul([style]);
 
-const SortableItem = SortableElement(({ value }) => <li>{value}</li>);
+function ToDos({ todos }) {
+  const [setStatus] = useState();
 
-const SortableList = SortableContainer(({ items }) => {
+  function handleStatus(status) {
+    status ? setStatus(false) : setStatus(true);
+  }
+
   return (
     <StyledList>
-      {items.map((list, index) => (
-        <SortableItem key={`item-${index}`} index={index} value={list.name} />
-      ))}
+      {todos.map((list, index) => {
+        return list.status ? (
+          <li id={index} key={index}>
+            <label htmlFor={`todo-${index}`}>
+              <input
+                type="checkbox"
+                id={`todo-${index}`}
+                defaultChecked
+                onChange={() => handleStatus(list.status)}
+              />
+              {list.name}
+            </label>
+          </li>
+        ) : (
+          <li id={index} key={index}>
+            <label htmlFor={`todo-${index}`}>
+              <input
+                type="checkbox"
+                id={`todo-${index}`}
+                onChange={() => handleStatus(list.status)}
+              />
+              {list.name}
+            </label>
+          </li>
+        );
+      })}
     </StyledList>
-  );
-});
-
-function ToDos({ todos }) {
-  const { orderTodos, setOrderTodos } = useContext(ToDoContext);
-
-  setOrderTodos(todos);
-
-  console.log('aciona', orderTodos);
-
-  const onSortEnd = ({ oldIndex, newIndex }) => {
-    setOrderTodos(arrayMove(orderTodos, oldIndex, newIndex));
-  };
-
-  return (
-    <SortableList items={orderTodos} onSortEnd={onSortEnd} />
   );
 }
 
