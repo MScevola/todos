@@ -4,8 +4,6 @@ import styled from "styled-components";
 
 import { ToDoContext } from '../contexts/toDoContext';
 
-import Input from "../components/input";
-import Button from "../components/button";
 import Categories from "../components/categories";
 import ToDos from "../components/todos";
 
@@ -24,12 +22,11 @@ const Home = styled("div")`
 function Landing() {
   const [actualList, setActualList] = useState(0);
   const [orderTodos, setOrderTodos] = useState(Lists[actualList].todos);
+  const [nameCategory, setNameCategory] = useState('');
 
   return (
-    <ToDoContext.Provider value={{ actualList, setActualList, orderTodos, setOrderTodos }}>
+    <ToDoContext.Provider value={{ actualList, setActualList, orderTodos, setOrderTodos, nameCategory, setNameCategory }}>
       <Home>
-        <Input name="name" placeholder="Nova Categoria" />
-        <Button>Adicionar</Button>
         <Categories list={Lists} />
         <ToDos todos={Lists[actualList].todos} />
       </Home>

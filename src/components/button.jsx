@@ -10,9 +10,15 @@ const style = ({ theme, ...rest }) => css`
   padding: 10px;
   font-size: 24px;
 
-  :hover {
+  &:hover {
     color: ${theme.colors.lightest};
     background-color: ${theme.colors.secondary};
+  }
+
+  &:focus{
+    background-color: ${theme.colors.lightest};
+    color: ${theme.colors.secondary};
+    outline: none;
   }
 `;
 
