@@ -2,9 +2,9 @@ import React from "react";
 import styled, { css } from "styled-components";
 
 const style = ({ theme, ...rest }) => css`
-  border-color: ${theme.colors.primary};
   background-color: ${theme.colors.lightest};
   color: ${theme.colors.secondary};
+  border-radius: 4px;
   border-width: 2px;
   border-style: solid;
   padding: 10px;
@@ -18,6 +18,8 @@ const style = ({ theme, ...rest }) => css`
 
 const ButtonBase = styled.button([style]);
 
-export const Button = ({ onClick, children }) => (
+const Button = ({ onClick, children }) => (
   <ButtonBase onClick={onClick}>{children}</ButtonBase>
 );
+
+export default Button;

@@ -3,6 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "array-move": "^2.0.0",
     "classnames": "^2.2.6",
     "node-sass": "^4.9.3",
     "react-lazyload": "^2.3.0",
@@ -10,13 +11,12 @@
     "react-router": "^4.3.1",
     "react-router-dom": "^4.3.1",
     "react-scripts": "^2.1.8",
-    "react-scroll-parallax": "^2.0.0-alpha.2",
+    "react-sortable-hoc": "^1.8.3",
     "styled-components": "^3.4.5",
     "webfontloader": "^1.6.28"
   },
   "lint-staged": {
     "src/**/*.{js,jsx,json}": [
-      "eslint --fix",
       "git add"
     ],
     "src/**/*.{scss,css}": [
@@ -34,8 +34,6 @@
     "test": "react-scripts test --watchAll=false",
     "test:watch": "react-scripts test",
     "eject": "react-scripts eject",
-    "precommit": "lint-staged && react-scripts test --watchAll=false",
-    "lint": "./node_modules/.bin/eslint --fix --ext=js --ext=jsx ./src/",
     "lint:css": "stylelint './src/**/*.js'",
     "serve": "./node_modules/.bin/serve -s --ssl ./build",
     "analyze": "set GENERATE_SOURCEMAP=true && npm run build && source-map-explorer build/static/js/main.*"
