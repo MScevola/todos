@@ -7,7 +7,7 @@ import { ThemeProvider } from "styled-components";
 
 import "./index.scss";
 
-import { SecondaryTheme } from "./themes/themes";
+import { PrimaryTheme } from "./themes/themes";
 
 const Home = Loadable({
   loader: () => import("./pages/Home"),
@@ -23,7 +23,7 @@ WebFont.load({
 });
 
 render(
-  <ThemeProvider theme={SecondaryTheme}>
+  <ThemeProvider theme={PrimaryTheme}>
     <BrowserRouter>
       <Switch>
         <Route path="/" exact component={Home} />

@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import WebFont from "webfontloader";
 import styled from "styled-components";
 
-import { ToDoContext } from '../contexts/toDoContext';
+import { ToDoContext } from "../contexts/toDoContext";
 
 import Categories from "../components/categories";
 import ToDos from "../components/todos";
@@ -16,19 +16,33 @@ WebFont.load({
 });
 
 const Home = styled("div")`
-  background: #ededed;
+  position: relative;
+  display: block;
+  margin: 0 auto;
+  width: 100%;
+  max-width: 900px;
+  height: 100vh;
+  overflow-x: hidden;
 `;
 
 function Landing() {
+  const [toDoLists, setToDoLists] = useState(Lists);
   const [actualList, setActualList] = useState(0);
-  const [orderTodos, setOrderTodos] = useState(Lists[actualList].todos);
-  const [nameCategory, setNameCategory] = useState('');
+  const [nameCategory, setNameCategory] = useState("");
 
   return (
-    <ToDoContext.Provider value={{ actualList, setActualList, orderTodos, setOrderTodos, nameCategory, setNameCategory }}>
+    <ToDoContext.Provider
+      value={{
+        actualList,
+        setActualList,
+        nameCategory,
+        setNameCategory,
+        setToDoLists
+      }}
+    >
       <Home>
-        <Categories list={Lists} />
-        <ToDos todos={Lists[actualList].todos} />
+        <Categories list={toDoLists} />
+        <ToDos todos={toDoLists[actualList].todos} />
       </Home>
     </ToDoContext.Provider>
   );
