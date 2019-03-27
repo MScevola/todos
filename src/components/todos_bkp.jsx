@@ -1,9 +1,9 @@
 import React, { useContext } from "react";
 import styled, { css } from "styled-components";
-import { SortableContainer, SortableElement } from "react-sortable-hoc";
-import arrayMove from "array-move";
+import { SortableContainer, SortableElement } from 'react-sortable-hoc';
+import arrayMove from 'array-move';
 
-import { ToDoContext } from "../contexts/toDoContext";
+import { ToDoContext } from '../contexts/toDoContext';
 
 const style = ({ theme, ...rest }) => css`
   background-color: ${theme.colors.lightest};
@@ -34,13 +34,15 @@ function ToDos({ todos }) {
 
   setOrderTodos(todos);
 
-  console.log("aciona", orderTodos);
+  console.log('aciona', orderTodos);
 
   const onSortEnd = ({ oldIndex, newIndex }) => {
     setOrderTodos(arrayMove(orderTodos, oldIndex, newIndex));
   };
 
-  return <SortableList items={orderTodos} onSortEnd={onSortEnd} />;
+  return (
+    <SortableList items={orderTodos} onSortEnd={onSortEnd} />
+  );
 }
 
 export default ToDos;

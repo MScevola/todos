@@ -4,8 +4,6 @@ import styled from "styled-components";
 
 import { ToDoContext } from "../contexts/toDoContext";
 
-import Input from "../components/input";
-import Button from "../components/button";
 import Categories from "../components/categories";
 import ToDos from "../components/todos";
 
@@ -18,13 +16,19 @@ WebFont.load({
 });
 
 const Home = styled("div")`
-  background: #ededed;
+  position: relative;
+  display: block;
+  margin: 0 auto;
+  width: 100%;
+  max-width: 900px;
+  height: 100vh;
+  overflow-x: hidden;
 `;
 
 function Landing() {
+  const [toDoLists, setToDoLists] = useState(Lists);
   const [actualList, setActualList] = useState(0);
-  const [orderTodos, setOrderTodos] = useState(Lists[actualList].todos);
-  const [newCategory, setNewCategory] = useState("");
+  const [nameCategory, setNameCategory] = useState("");
 
   function addCategory() {
     Lists.push({ name: newCategory, todos: [] });
@@ -40,21 +44,14 @@ function Landing() {
       value={{
         actualList,
         setActualList,
-        orderTodos,
-        setOrderTodos,
-        newCategory,
-        setNewCategory
+        nameCategory,
+        setNameCategory,
+        setToDoLists
       }}
     >
       <Home>
-        <Input
-          placeholder="Nova Categoria"
-          value={newCategory}
-          onChange={nameCategory}
-        />
-        <Button onClick={() => addCategory()}>Adicionar</Button>
-        <Categories list={Lists} />
-        <ToDos todos={Lists[actualList].todos} />
+        <Categories list={toDoLists} />
+        <ToDos todos={toDoLists[actualList].todos} />
       </Home>
     </ToDoContext.Provider>
   );

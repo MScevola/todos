@@ -1,75 +1,31 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"
+    />
+    <meta name="theme-color" content="#2593f7" />
 
-<head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
-  <meta name="theme-color" content="#2593f7" />
+    <meta name="format-detection" content="telephone=no" />
+    <meta name="format-detection" content="address=no" />
 
-  <meta name="format-detection" content="telephone=no" />
-  <meta name="format-detection" content="address=no" />
+    <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+    <link rel="shortcut icon" href="%PUBLIC_URL%/favicon.ico" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Roboto"
+      rel="stylesheet"
+    />
 
-  <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
-  <link rel="shortcut icon" href="%PUBLIC_URL%/favicon.ico" />
-  <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet" />
+    <title>To Do List</title>
+  </head>
 
-  <title>Refinanciamento | Paraná Banco</title>
+  <body>
+    <noscript>
+      You need to enable JavaScript to run this app.
+    </noscript>
 
-  <!-- Google Tag Manager -->
-  <script defer>
-    (function (w, d, s, l, i) {
-      w[l] = w[l] || [];
-      w[l].push({
-        "gtm.start": new Date().getTime(),
-        event: "gtm.js"
-      });
-      var f = d.getElementsByTagName(s)[0],
-        j = d.createElement(s),
-        dl = l != "dataLayer" ? "&l=" + l : "";
-      j.async = true;
-      j.src = "https://www.googletagmanager.com/gtm.js?id=" + i + dl;
-      f.parentNode.insertBefore(j, f);
-    })(window, document, "script", "dataLayer", "GTM-N947ZFB");
-  </script>
-  <!-- Google Tag Manager -->
-
-  <!-- Snippet Optimizer -->
-  <style>
-    .async-hide {
-      opacity: 0 !important;
-    }
-  </style>
-  <script defer>
-    (function (a, s, y, n, c, h, i, d, e) {
-      s.className += " " + y;
-      h.start = 1 * new Date();
-      h.end = i = function () {
-        s.className = s.className.replace(RegExp(" ?" + y), "");
-      };
-      (a[n] = a[n] || []).hide = h;
-      setTimeout(function () {
-        i();
-        h.end = null;
-      }, c);
-      h.timeout = c;
-    })(window, document.documentElement, "async-hide", "dataLayer", 4000, {
-      "GTM-5GMHN7X": true
-    });
-  </script>
-  <!-- End Snippet Optimizer -->
-
-  <!-- PINGDOM TAG -->
-  <script src="//rum-static.pingdom.net/pa-5c0971d49a3f830016000120.js" async></script>
-  <!-- PINGDOM TAG -->
-</head>
-
-<body>
-  <noscript>
-    You need to enable JavaScript to run this app.
-    <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-N947ZFB" height="0" width="0" style="display:none; visibility:hidden;"></iframe>
-  </noscript>
-
-  <div id="root"></div>
-</body>
-
+    <div id="root"></div>
+  </body>
 </html>

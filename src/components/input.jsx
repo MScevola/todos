@@ -2,23 +2,25 @@ import React from "react";
 import styled, { css } from "styled-components";
 
 const style = ({ theme, ...rest }) => css`
-  border-color: ${theme.colors.lightest};
-  background-color: ${theme.colors.primary};
-  color: ${theme.colors.lightest};
-  border-width: 2px;
-  border-style: solid;
-  padding: 10px;
-  font-size: 24px;
+  position: relative;
+  display: block;
+  padding: 6px 10px;
+  box-sizing: border-box;
+  width: 100%;
+  background: ${theme.colors.secondary};
+  border: ${theme.colors.terciary} solid thin;
+  border-radius: 4px;
+  font-size: 1rem;
+  margin: 0 0 6px;
 `;
 
 const StyledInput = styled.input([style]);
 
-const Input = ({ name, placeholder, value, onChange }) => (
+const Input = ({ id, placeholder, onChange }) => (
   <StyledInput
     type="text"
-    name={name}
+    id={id}
     placeholder={placeholder}
-    value={value}
     onChange={onChange}
   />
 );
